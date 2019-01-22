@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5AFD065021F472AA00C5ED92 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AFD064F21F472AA00C5ED92 /* main.cpp */; };
+		5AFD065921F4A15900C5ED92 /* entities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AFD065721F4A15900C5ED92 /* entities.cpp */; };
+		5AFE89AC21F5B3CF00DF2575 /* free_functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE89AA21F5B3CF00DF2575 /* free_functions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		5AFD064C21F472AA00C5ED92 /* Delaunator-3d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Delaunator-3d"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFD064F21F472AA00C5ED92 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5AFD065721F4A15900C5ED92 /* entities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = entities.cpp; sourceTree = "<group>"; };
+		5AFD065821F4A15900C5ED92 /* entities.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = entities.hpp; sourceTree = "<group>"; };
+		5AFE89AA21F5B3CF00DF2575 /* free_functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = free_functions.cpp; sourceTree = "<group>"; };
+		5AFE89AB21F5B3CF00DF2575 /* free_functions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = free_functions.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				5AFD064F21F472AA00C5ED92 /* main.cpp */,
+				5AFD065721F4A15900C5ED92 /* entities.cpp */,
+				5AFD065821F4A15900C5ED92 /* entities.hpp */,
+				5AFE89AA21F5B3CF00DF2575 /* free_functions.cpp */,
+				5AFE89AB21F5B3CF00DF2575 /* free_functions.hpp */,
 			);
 			path = "Delaunator-3d";
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AFD065921F4A15900C5ED92 /* entities.cpp in Sources */,
 				5AFD065021F472AA00C5ED92 /* main.cpp in Sources */,
+				5AFE89AC21F5B3CF00DF2575 /* free_functions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
